@@ -35,7 +35,7 @@ class Point(object):
         return str(self.distance)
 
 def get_input(url):
-    my_account_session = {'session': '53616c7465645f5f0fa6b95cce777a0097c4dc28ab7befa4e78252949c34e0094ea2aef8425e78a86f03affc51482671'}
+    my_account_session = {'session': 'XXX'}
     response = requests.get(url, cookies=my_account_session)
     data = response.text
     return data
